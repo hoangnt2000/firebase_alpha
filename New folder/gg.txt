@@ -1,0 +1,33 @@
+Future<String?> loginWithGG() async {
+    GoogleSignIn googleSignIn = GoogleSignIn();
+    await googleSignIn.disconnect().catchError((e) {
+      print(e);
+    }).onError((error, stackTrace) => null);
+    googleSignIn.isSignedIn().then((value) async {
+      if (value) {
+        await googleSignIn.signOut().onError((error, stackTrace) {
+          return null;
+        });
+
+        await FirebaseAuth.instance.signOut();
+      }
+    });
+    GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+    final GoogleSignInAuthentication? googleAuth =
+        await googleUser?.authentication;
+    String? token1 = googleAuth?.idToken.toString().substring(0, 500);
+    String? token2 = googleAuth?.idToken
+        .toString()
+        .substring(500, googleAuth.idToken!.length);
+    final credential = GoogleAuthProvider.credential(
+      accessToken: googleAuth?.accessToken,
+      idToken: "$token1$token2",
+    );
+    var credent = await FirebaseAuth.instance.signInWithCredential(credential);
+    if (credent.user?.uid != null) {
+      var user = FirebaseAuth.instance.currentUser;
+      return user?.email;
+    } else {
+      return null;
+    }
+  }

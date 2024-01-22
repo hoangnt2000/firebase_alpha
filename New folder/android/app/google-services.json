@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "265258487603",
+    "project_id": "f-go-f97eb",
+    "storage_bucket": "f-go-f97eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265258487603:android:e39221f652c42d6b5af846",
+        "android_client_info": {
+          "package_name": "com.abc.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265258487603-mqfmcoave38i7i8uffjufljslmcbgeug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDuMzBl9FN3LinFxCUVF5drS_Sa-ZVvro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265258487603-mqfmcoave38i7i8uffjufljslmcbgeug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "265258487603-1nmh1spndm1se5922pgs9plmoe9rd71j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.alphalogy.a5LocationSharing.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265258487603:android:859f4674fa83e4be5af846",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265258487603-mqfmcoave38i7i8uffjufljslmcbgeug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDuMzBl9FN3LinFxCUVF5drS_Sa-ZVvro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265258487603-mqfmcoave38i7i8uffjufljslmcbgeug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "265258487603-1nmh1spndm1se5922pgs9plmoe9rd71j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.alphalogy.a5LocationSharing.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265258487603:android:fd65c06548906f815af846",
+        "android_client_info": {
+          "package_name": "net.alphalogy.a5_location_sharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265258487603-mqfmcoave38i7i8uffjufljslmcbgeug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDuMzBl9FN3LinFxCUVF5drS_Sa-ZVvro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265258487603-mqfmcoave38i7i8uffjufljslmcbgeug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "265258487603-1nmh1spndm1se5922pgs9plmoe9rd71j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.alphalogy.a5LocationSharing.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

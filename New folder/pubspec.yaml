@@ -1,0 +1,74 @@
+# @format
+
+name: a5_location_sharing
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+
+  font_awesome_flutter: ^10.6.0
+  intl: ^0.18.1
+  flutter_easyloading: ^3.0.5
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  firebase_core: ^2.24.2
+  # firebase_analytics: ^10.7.4
+  flutter_native_splash: ^2.3.8
+  flutter_launcher_icons: ^0.13.1
+  firebase_auth: ^4.15.3
+  permission_handler: ^11.1.0
+  google_sign_in: ^6.2.1
+  email_otp: ^2.1.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto-Regular.ttf
+          style: italic
+        - asset: assets/fonts/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
+          style: italic
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/location_app.png
+  android_12:
+    image: assets/images/location_app.png
+  android: true
+  ios: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/location_app.png"
+  min_sdk_android: 21
